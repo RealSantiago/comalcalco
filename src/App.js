@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline } from "@mui/material";
+import React from "react";
+import Home from "./screens/home";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-     <p>Holi</p> 
-    </div>
+    <React.Fragment>
+      <Home />
+      <CssBaseline />
+    </React.Fragment>
   );
 }
-
-export default App;
